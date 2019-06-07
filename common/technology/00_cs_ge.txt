@@ -1,0 +1,32 @@
+### Localisation and Graphics missing
+
+### Productivity AP
+tech_ge_increasing_productivity_1 = {
+	area = engineering
+	category = { materials }
+	tier = 1
+	cost = 2000
+	is_rare = no
+	weight = 250
+
+	modifier = {
+		planet_jobs_minerals_produces_mult = 0.2
+		planet_technician_energy_produces_mult = 0.2
+		planet_farmers_food_produces_mult = 0.2
+	}
+
+	ai_weight = { factor = 1000 }
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_materialist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_fanatic_materialist
+		}
+	}
+}
+
+###

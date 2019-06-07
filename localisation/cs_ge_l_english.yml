@@ -1,4 +1,7 @@
 ﻿l_english:
-#Housing
+#Buildings
  ge_vertical_city:0 "Vertical City"
  ge_vertical_city_desc:0 "A vertical city with everything your people need. It can house millions of people!."
+ #Technologies
+ tech_ge_increasing_productivity_1:0 "Increasing Productivity I"
+ tech_ge_increasing_productivity_1_desc:= "Increases overall productivity by optimizing your production workflows."
