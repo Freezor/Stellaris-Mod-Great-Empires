@@ -1,6 +1,6 @@
 ### Localisation and Graphics missing
 
-### Productivity AP
+### Productivity Techs
 tech_ge_increasing_productivity_1 = {
 	area = engineering
 	category = { materials }
@@ -10,9 +10,10 @@ tech_ge_increasing_productivity_1 = {
 	weight = 250
 
 	modifier = {
-		planet_jobs_minerals_produces_mult = 0.2
-		planet_technician_energy_produces_mult = 0.2
-		planet_farmers_food_produces_mult = 0.2
+		planet_jobs_minerals_produces_mult = 0.1
+		planet_technician_energy_produces_mult = 0.1
+		planet_farmers_food_produces_mult = 0.1
+		planet_technician_energy_produces_mult = 0.1
 	}
 
 	ai_weight = { factor = 1000 }
@@ -29,4 +30,4 @@ tech_ge_increasing_productivity_1 = {
 	}
 }
 
-###
+### Housing Technologies

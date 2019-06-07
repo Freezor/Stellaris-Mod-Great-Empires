@@ -68,7 +68,7 @@ ge_vertical_city =
 	}
 	
 	prerequisites = {
-		tech_planetary_government
+		tech_housing_2
 	}
 	
 
