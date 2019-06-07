@@ -3,7 +3,7 @@
 ### Productivity Techs
 tech_ge_increasing_productivity_1 = {
 	area = engineering
-	category = { materials }
+	category = { industry }
 	tier = 1
 	cost = 2000
 	is_rare = no
@@ -13,7 +13,6 @@ tech_ge_increasing_productivity_1 = {
 		planet_jobs_minerals_produces_mult = 0.1
 		planet_technician_energy_produces_mult = 0.1
 		planet_farmers_food_produces_mult = 0.1
-		planet_technician_energy_produces_mult = 0.1
 	}
 
 	ai_weight = { factor = 1000 }
@@ -30,4 +29,59 @@ tech_ge_increasing_productivity_1 = {
 	}
 }
 
+tech_ge_increasing_productivity_2 = {
+	area = engineering
+	category = { industry }
+	tier = 1
+	cost = 3000
+	is_rare = yes
+	weight = 250
+
+	modifier = {
+		planet_jobs_minerals_produces_mult = 0.2
+		planet_technician_energy_produces_mult = 0.2
+		planet_farmers_food_produces_mult = 0.2
+	}
+
+	ai_weight = { factor = 1000 }
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_materialist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_fanatic_materialist
+		}
+	}
+}
+
+tech_ge_increasing_productivity_3 = {
+	area = engineering
+	category = { industry }
+	tier = 2
+	cost = 5000
+	is_rare = yes
+	weight = 250
+
+	modifier = {
+		planet_jobs_minerals_produces_mult = 0.4
+		planet_technician_energy_produces_mult = 0.4
+		planet_farmers_food_produces_mult = 0.4
+	}
+
+	ai_weight = { factor = 1000 }
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_materialist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_fanatic_materialist
+		}
+	}
+}
 ### Housing Technologies
