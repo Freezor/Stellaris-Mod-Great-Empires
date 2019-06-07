@@ -66,6 +66,11 @@ ge_vertical_city =
 			energy = 8
 		}
 	}
+	
+	prerequisites = {
+		tech_planetary_government
+	}
+	
 
 	ai_weight = {
 		weight = 1
