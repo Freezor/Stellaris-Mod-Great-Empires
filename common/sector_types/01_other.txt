@@ -32,9 +32,9 @@ frontier_sector = {
 	}
 
 	resource_conversion_table = {
-		energy = 1.5
-		minerals = 1.5
+		energy = 2
+		minerals = 2
 	}
 
-	max_jumps = 3
+	max_jumps = 2
 }

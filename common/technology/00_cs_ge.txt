@@ -32,7 +32,7 @@ tech_ge_increasing_productivity_1 = {
 tech_ge_increasing_productivity_2 = {
 	area = engineering
 	category = { industry }
-	tier = 1
+	tier = 2
 	cost = 3000
 	is_rare = yes
 	weight = 250
@@ -43,6 +43,10 @@ tech_ge_increasing_productivity_2 = {
 		planet_farmers_food_produces_mult = 0.2
 	}
 
+	prerequisites = { 
+	"tech_ge_increasing_productivity_1" 
+	}
+	
 	ai_weight = { factor = 1000 }
 	
 	ai_weight = {
@@ -60,7 +64,7 @@ tech_ge_increasing_productivity_2 = {
 tech_ge_increasing_productivity_3 = {
 	area = engineering
 	category = { industry }
-	tier = 2
+	tier = 3
 	cost = 5000
 	is_rare = yes
 	weight = 250
@@ -71,6 +75,10 @@ tech_ge_increasing_productivity_3 = {
 		planet_farmers_food_produces_mult = 0.4
 	}
 
+	prerequisites = { 
+	"tech_ge_increasing_productivity_2" 
+	}
+	
 	ai_weight = { factor = 1000 }
 	
 	ai_weight = {
